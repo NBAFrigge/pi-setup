@@ -1,0 +1,30 @@
+# Secrets / credentials
+auth.json
+auth.json.bak
+models-store.json
+
+# Session & history data (may contain private content)
+sessions/
+missions/
+run-history.jsonl
+web-search-cache/
+
+# Caches
+mcp-cache.json
+
+# Extension logs
+extensions/**/logs/
+
+# Dependencies
+node_modules/
+npm/node_modules/
+
+# OS / editor cruft
+.DS_Store
+
+# Backup files
+*.bak
+*.bak.*
+
+# Compiled binaries
+bin/

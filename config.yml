@@ -1,0 +1,8 @@
+tools:
+  approval:
+    read: allow
+    edit: allow
+    write: allow
+    bash: allow
+    mcp: allow
+    mcpScript: allow

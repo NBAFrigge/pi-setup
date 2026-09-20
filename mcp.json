@@ -1,0 +1,12 @@
+{
+  "settings": {
+    "autoAuth": true,
+    "mcpFooterStatus": "compact",
+    "notifyOnStartupConnect": true
+  },
+  "mcpServers": {
+    "local-mcp": {
+      "url": "http://localhost:8383/mcp"
+    }
+  }
+}

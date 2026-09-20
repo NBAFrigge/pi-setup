@@ -1,0 +1,46 @@
+{
+  "permission": {
+    "*": "allow",
+    "path": {
+      "*": "allow",
+      "*.env": "deny",
+      "*.env.*": "deny",
+      "*.env.example": "allow",
+      "~/.ssh/*": "deny",
+      "~/.aws/*": "deny",
+      "~/.pi/agent/auth.json": "deny"
+    },
+    "external_directory": {
+      "*": "ask",
+      "/tmp": "allow",
+      "/tmp/*": "allow"
+    },
+    "web_search": "ask",
+    "fetch_content": "ask",
+    "source_check": "ask",
+    "get_search_content": "allow",
+    "bash": {
+      "*": "allow",
+      "rm -rf *": "ask",
+      "rm -rf /": "deny",
+      "rm -rf /*": "deny",
+      "sudo": "deny",
+      "sudo *": "deny",
+      "mkfs *": "deny",
+      "git reset --hard*": "ask",
+      "git clean *": "ask",
+      "git pull": "ask",
+      "git pull *": "ask",
+      "git push": "ask",
+      "git push *": "ask",
+      "npm publish*": "ask",
+      "pnpm publish*": "ask",
+      "docker *": "ask",
+      "kubectl *": "ask",
+      "terraform *": "ask",
+      "wrangler publish*": "ask",
+      "wrangler deploy*": "ask",
+      "fly deploy*": "ask"
+    }
+  }
+}

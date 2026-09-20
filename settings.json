@@ -1,0 +1,24 @@
+{
+  "lastChangelogVersion": "0.85.1",
+  "theme": "dark",
+  "defaultProvider": "anthropic",
+  "defaultModel": "claude-opus-4-8",
+  "defaultProjectTrust": "always",
+  "packages": [
+    "npm:pi-claude-auth",
+    "npm:pi-gemini-acp",
+    "npm:pi-claude-bridge",
+    "/Users/frigge/.local/share/pi-config/node_modules/pi-mcp-adapter",
+    "/Users/frigge/.local/share/pi-config/node_modules/remote-pi",
+    "/Users/frigge/.local/share/pi-config/node_modules/pi-subagents",
+    "/Users/frigge/.local/share/pi-config/node_modules/@juicesharp/rpiv-ask-user-question",
+    "/Users/frigge/.local/share/pi-config/node_modules/@gotgenes/pi-permission-system",
+    "/Users/frigge/.local/share/pi-config/node_modules/pi-web-access",
+    "/Users/frigge/.local/share/pi-config/node_modules/@juicesharp/rpiv-todo",
+    "/Users/frigge/.local/share/pi-config/node_modules/pi-lens",
+    "/Users/frigge/.local/share/pi-config/node_modules/pi-goal-x"
+  ],
+  "warnings": {
+    "anthropicExtraUsage": false
+  }
+}
