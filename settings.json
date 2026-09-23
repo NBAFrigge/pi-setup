@@ -6,8 +6,6 @@
   "defaultProjectTrust": "always",
   "packages": [
     "npm:pi-claude-auth",
-    "npm:pi-gemini-acp",
-    "npm:pi-claude-bridge",
     "npm:pi-image-tools",
     "npm:pi-mcp-adapter",
     "npm:remote-pi",
